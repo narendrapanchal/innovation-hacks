@@ -1,0 +1,93 @@
+.dashboard{
+    width: 320px;
+    height: 100vh;
+background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 10%, rgba(0, 0, 0, 0.5) 100%);
+    border-right: 2px solid rgba(64, 64, 64, 1);
+
+}
+.black{
+    background: rgba(24, 24, 24, 1);
+
+}
+.dashboard-content{
+    padding: 0px 22px;
+}
+.logo{
+    width: 80px;
+    height: 70px;
+    margin: auto;
+    padding-top: 29px;
+    margin-bottom: 29px;
+    display: flex;
+    align-self: center;
+}
+.dashboard-item{
+    padding: 14px 0px;
+    padding-left: 18px;
+    font-size: 18px;
+    line-height: 40px;
+    grid-gap:20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.dashboard-item img{
+    width: 20px;
+    height: 20px;
+}
+.dashboard .active{
+    background: rgba(38, 38, 38, 1);
+    color: white;
+}
+.user{
+    width: 242px;
+height: 50px;
+left: 25px;
+gap: 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+position: absolute;
+bottom: 64px;
+margin-right: 25px;
+color: white;
+display: flex;
+align-items: center;
+}
+.user .img{
+    width: 50px;
+    height: 50px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+.user >div{
+    margin-left: 10px;
+}
+.user >div>span:nth-child(1){
+    display: block;
+font-size: 18px;
+font-weight: 600;
+line-height: 22.5px;
+text-align: left;
+text-decoration-skip-ink: none;
+
+}
+
+.user >div>span:nth-child(2){
+    display: block;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+text-align: left;
+text-decoration-skip-ink: none;
+margin-top: 4px;
+
+}
+.down-key{
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+}

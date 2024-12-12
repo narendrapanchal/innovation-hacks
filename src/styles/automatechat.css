@@ -1,0 +1,112 @@
+.automate-chat{
+    background: rgba(38, 38, 38, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 324px;
+    height: 100vh;
+    border-right: 1px solid rgba(64, 64, 64, 1);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.automate-chat .content{
+    padding: 22px 16px 0px;
+    padding-top:0px ;
+    margin-top: 22px;
+    border-top-right-radius: 20px;
+
+}
+.automate-chat h2{
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    font-weight: 500;
+    padding: 10px 16px 10px 0px;
+
+
+}
+.automate-chat .search-box{
+    padding: 8px 20px;
+    display: flex;
+    grid-gap:8px;
+    border: 2px solid rgba(188, 188, 188, 1);
+    border-radius: 30px;
+    margin-top: 45px;
+}
+.automate-chat .search-box img{
+    width: 20px;
+    height: 20px;
+}
+.automate-chat .search-box > input{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    color:  rgba(188, 188, 188, 1)
+}
+.automate-chat .search-box > input::placeholder {
+    color:  rgba(188, 188, 188, 1)
+  }
+  .automate-chat .search-box  input:focus {
+    outline: none;
+  }
+  .automate-item{
+    padding: 14px 0px;
+    padding-left: 17px;
+    font-size: 14px;
+    line-height: 20px;
+    grid-gap:20px;
+    color: rgba(255, 255, 255, 1);
+
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.automate-item img{
+    width: 20px;
+    height: 20px;
+}
+.automate-chat .automate-content{
+    padding: 0px 17px;
+    margin-top: 10px;
+}
+.automate-content .active{
+  background: rgba(255, 255, 255, 0.05);
+
+    color: white;
+}
+.heading-content{
+    padding-left: 16px;
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(221, 221, 221, 1);
+    font-weight: 500;
+
+
+}
+.last-30-days{
+    padding-top:0px ;
+    margin-top: 24px;
+}
+.new-chat{
+    position: absolute;
+    bottom: 60px;
+    width: inherit;
+    padding: 0px 16px;
+}
+.new-chat > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0px;
+    cursor: pointer;
+    font-size: 18px ;
+    line-height: 28px;
+color: white;
+width: 291px;
+border-radius: 26px ;
+border: 2px solid white;
+grid-gap:12px;
+font-weight: 500;
+}

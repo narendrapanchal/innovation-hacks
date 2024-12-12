@@ -1,0 +1,60 @@
+.automate-design{
+    
+}
+.automate-design > .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.automate-design .header .logo{
+    width: 35px;
+    height: 35px;
+    margin: 0px;
+    margin-left: 46px;
+    padding: 0px;
+}
+.automate-design .header >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.automate-design .header h2{
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+margin-left: 30px;
+color: white;
+
+}
+.automate-design .header .share{
+    width: 20px;
+    height: 19px;
+    margin-right: 8px;
+}
+.automate-design .header  .span-share{
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+    color: white;
+    
+}
+.automate-design .header .download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    border-radius: 33px;
+font-size: 16px;
+line-height: 20px;
+grid-gap: 8px;
+border: none;
+margin: 24.5px 24px 24.5px 28px;
+
+}
+.download img{
+    width: 24px;
+    height: 24px;
+}
+.customer-registration{
+    
+}
